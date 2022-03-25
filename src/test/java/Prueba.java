@@ -14,15 +14,15 @@ public class Prueba {
 
     public static void abrirCalculadora() throws MalformedURLException {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-        desiredCapabilities.setCapability("deviceName", "BPN0218920002072");
+        desiredCapabilities.setCapability("deviceName", "EML L09");
         desiredCapabilities.setCapability("udid", "BPN0218920002072");
         desiredCapabilities.setCapability("platformName", "Android");
         desiredCapabilities.setCapability("platformVersion", "10");
-        desiredCapabilities.setCapability("appPackage", "com.android.chrome");
-        desiredCapabilities.setCapability("appActivity", "com.android.chrome.Calculator");
-        URL remoteUrl = new URL("http://192.168.0.24:4444/wd/hub");
+        desiredCapabilities.setCapability("appPackage", "com.android.calculator2");
+        desiredCapabilities.setCapability("appActivity", "com.android.calculator2.Calculator");
+        URL remoteUrl = new URL("http://localhost:4723/wd/hub");
         driver = new AndroidDriver(remoteUrl, desiredCapabilities);
-        System.out.println(driver.getBatteryInfo());
-        driver.closeApp();
+        //System.out.println(driver.getBatteryInfo());
+        //driver.closeApp();
     }
 }

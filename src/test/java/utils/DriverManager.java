@@ -1,6 +1,5 @@
 package utils;
 
-import com.google.gson.JsonObject;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 

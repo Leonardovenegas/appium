@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 import testClasse.OperacionesMatematicas;
 import utils.DriverContext;
 
-import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 
 public class Prueba {

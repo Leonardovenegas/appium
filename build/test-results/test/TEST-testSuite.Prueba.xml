@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testSuite.Prueba" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-28T20:42:58" hostname="LAPTOP-MUMLH26I" time="7.711">
+<testsuite name="testSuite.Prueba" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-29T12:54:41" hostname="LAPTOP-MUMLH26I" time="11.601">
   <properties/>
-  <testcase name="sumar" classname="testSuite.Prueba" time="7.711"/>
-  <system-out><![CDATA[El resultado es: 1.213
+  <testcase name="sumar" classname="testSuite.Prueba" time="11.601"/>
+  <system-out><![CDATA[La operacion matematica es: 305+908+1.506
+El resultado es: 2.719
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

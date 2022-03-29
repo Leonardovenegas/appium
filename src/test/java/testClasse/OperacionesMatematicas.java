@@ -19,6 +19,7 @@ public class OperacionesMatematicas {
             calculadora.ingresarNumeros(numeros.get(x));
             calculadora.sumar();
         }
+        System.out.println("La operacion matematica es: " + calculadora.obtenerResultado().substring(0, calculadora.obtenerResultado().length() - 1));
         calculadora.igual();
         System.out.println("El resultado es: " + calculadora.obtenerResultado());
     }

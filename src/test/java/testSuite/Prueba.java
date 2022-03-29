@@ -1,7 +1,5 @@
 package testSuite;
 
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -25,6 +23,6 @@ public class Prueba {
     @Test
     public void sumar(){
         OperacionesMatematicas operacionesMatematicas = new OperacionesMatematicas();
-        operacionesMatematicas.sumar("305,908");
+        operacionesMatematicas.sumar("305,908,1506");
     }
 }

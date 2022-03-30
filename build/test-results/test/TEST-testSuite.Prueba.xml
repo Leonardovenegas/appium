@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testSuite.Prueba" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-29T12:54:41" hostname="LAPTOP-MUMLH26I" time="11.601">
+<testsuite name="testSuite.Prueba" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-29T20:52:17" hostname="LAPTOP-MUMLH26I" time="17.934">
   <properties/>
-  <testcase name="sumar" classname="testSuite.Prueba" time="11.601"/>
+  <testcase name="sumar" classname="testSuite.Prueba" time="17.934"/>
   <system-out><![CDATA[La operacion matematica es: 305+908+1.506
 El resultado es: 2.719
+[PdfBciReport] closePDF
+[PdfBciReport] createTitlePage
+File: BVMC7ZRV7Z445FG Not found
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

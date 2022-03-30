@@ -1,11 +1,20 @@
-utils/DriverContext.java
- utils.DriverContext
 utils/ReadProperties.java
  utils.ReadProperties
+utils/DriverContext.java
+ utils.DriverContext
 page/Calculadora.java
  page.Calculadora
+utils/Reporte/EstadoPrueba.java
+ utils.Reporte.EstadoPrueba
 utils/DriverManager.java
  utils.DriverManager
+utils/Utils.java
+ utils.Utils
+utils/Reporte/PdfQaNovaReports.java
+ utils.Reporte.PdfQaNovaReports
+ utils.Reporte.PdfQaNovaReports$1
+utils/Reporte/ImageResize.java
+ utils.Reporte.ImageResize
 testClasse/OperacionesMatematicas.java
  testClasse.OperacionesMatematicas
 testSuite/Prueba.java
